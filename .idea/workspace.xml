@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
@@ -9,13 +12,8 @@
     <cargoProject FILE="$PROJECT_DIR$/day2/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f215714-9918-4f90-9255-0ef66bca4c40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/2015.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5f215714-9918-4f90-9255-0ef66bca4c40" name="Changes" comment="fixed day2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunManager" selected="Cargo.Run day2">
     <configuration name="Run day2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
@@ -93,11 +91,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Cargo.Run" />
       <item itemvalue="Cargo.Run day2" />
@@ -111,6 +104,7 @@
   <component name="RustProjectSettings">
     <option name="explicitPathToStdlib" value="C:\Users\Lucad\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust" />
     <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../../../.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,8 +116,17 @@
       <updated>1632888309788</updated>
       <workItem from="1632888311073" duration="189000" />
       <workItem from="1632888523302" duration="46000" />
-      <workItem from="1632888582489" duration="890000" />
+      <workItem from="1632888582489" duration="1078000" />
+      <workItem from="1632922044147" duration="17000" />
     </task>
+    <task id="LOCAL-00001" summary="fixed day2">
+      <created>1632889519830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632889519830</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +143,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed day2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed day2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

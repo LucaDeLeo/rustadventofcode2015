@@ -15,9 +15,11 @@ fn main() {
             i += 1;
         }
         let (a, b, c): (i32, i32, i32) = (nums[0], nums[1], nums[2]);
-        sum += 2*(a*b + a*c + b*c) + min(min(a*b, a*c), b*c);
-        fribbon += 2*(a + b + c - nums.iter().max().unwrap()) + a*b*c;
+        sum += 2 * (a * b + a * c + b * c) + min(min(a * b, a * c), b * c);
+        fribbon += 2 * (a + b + c - nums.iter().max().unwrap()) + a * b * c;
     }
-    println!("Part1: The total square feet is : {}\nPart2: The total feet of ribbon is: {}", sum,
-             fribbon);
+    println!(
+        "Part1: The total square feet is : {}\nPart2: The total feet of ribbon is: {}",
+        sum, fribbon
+    );
 }
