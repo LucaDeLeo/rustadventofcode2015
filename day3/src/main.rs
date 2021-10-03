@@ -2,6 +2,7 @@ use std::collections::HashMap;
 use std::fs;
 
 fn main() {
+    // this is a test comment.
     let input = fs::read_to_string("input.txt").expect("Couldn't read input");
     {
         let mut houses: HashMap<(i32, i32), i32> = HashMap::new();
